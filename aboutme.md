@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am a clinician scientist at Princess Margaret Cancer Centre and an assistant professor at the University of Toronto. Throughout my clinical career as a hematologist, I have treated numerous patients with lymphoid cancers and have witnessed many suffer from progressive or refractory disease. These experiences ignited a strong desire to pursue translational research aimed at improving patient survival through the development of more effective therapies.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Research
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+The central focus of my research is to understand how interactions between tumor cells and the tumor microenvironment regulate cancer development and shape the tumor-educated microenvironment in lymphoid cancers, ultimately leading to biomarker discovery and novel therapeutic targets. I employ cutting-edge technologies, including single-cell sequencing, spatial transcriptomics, and proteomics assays, in conjunction with state-of-the-art preclinical in vitro and in vivo models. By integrating these approaches, my goal is to enhance patient outcomes through the establishment of precision medicine. To achieve this, I actively collaborate with leading researchers and clinicians worldwide, including clinical trial groups
