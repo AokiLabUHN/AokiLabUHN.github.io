@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Publications
-subtitle: Job opportunities in the Aoki Lab
 permalink: /Publications.html
 ---
 
