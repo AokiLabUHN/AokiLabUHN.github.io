@@ -5,7 +5,7 @@ permalink: /Publications.html
 ---
 
 
-** Selected Publication ** 
+**Selected Publication** 
 
 1. Aoki T, Jiang A, Xu A, Yin Y, Gamboa A, Milne K, Takata K, Miyata-Takata T, Chung S, Rai S, Wu S, Warren M, Strong C, Goodyear T, Morris K, Chong LC, Hav M, Colombo AR, Telenius A, Boyle M, Ben-Neriah S, Power M, Gerrie AS, Weng AP, Karsan A, Roth A, Farinha P, Scott DW, Savage KJ, Nelson BH, Merchant A, Steidl C. Spatially Resolved Tumor Microenvironment Predicts Treatment Outcomes in Relapsed/Refractory Hodgkin Lymphoma. J Clin Oncol. 2024 Mar 20;42(9):1077-1087. Epub 20231219. doi:10.1200/JCO.23.01115. Cited in: Pubmed; PMID 38113419.
 2. Aoki T, Chong LC, Takata K, et al. Single-cell profiling reveals the importance of CXCL13/CXCR5 axis biology in lymphocyte-rich classic Hodgkin lymphoma. Proc Natl Acad Sci U S A 2021;118(41): e2105822118. DOI: 10.1073/pnas.2105822118.
