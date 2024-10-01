@@ -6,7 +6,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: auto;
   margin: 1px;
   padding: 1px;
 }
@@ -14,17 +14,17 @@ html, body {
 .wrapper {
   background-color: white;
   
-  max-width: 200%;
+  max-width: auto;
   display: flex;
   flex-direction: row;
-  height: 50%;
+  height: auto;
 }
 
 .left, .right {
   background-color: white;
   
   margin: 1px;
-  max-width: 1000%;
+  max-width: auto;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: auto;
   margin: 0px;
   padding: 0px;
   
