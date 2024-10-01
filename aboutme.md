@@ -8,3 +8,5 @@ I am a clinician scientist at Princess Margaret Cancer Centre and an assistant p
 ### Research
 
 The central focus of my research is to understand how interactions between tumor cells and the tumor microenvironment regulate cancer development and shape the tumor-educated microenvironment in lymphoid cancers, ultimately leading to biomarker discovery and novel therapeutic targets. I employ cutting-edge technologies, including single-cell sequencing, spatial transcriptomics, and proteomics assays, in conjunction with state-of-the-art preclinical in vitro and in vivo models. By integrating these approaches, my goal is to enhance patient outcomes through the establishment of precision medicine. To achieve this, I actively collaborate with leading researchers and clinicians worldwide, including clinical trial groups
+
+![Research Goral 2](https://github.com/user-attachments/assets/bdbc0635-2742-4e89-9ccc-31c53e4b007d)
