@@ -16,7 +16,7 @@ body {
 /* Main Wrapper: Holds Left (Image) and Right (Text) */
 .wrapper {
     width: 95%; /* Increased width for more space */
-    max-width: 2000px; /* Allows a wider text area */
+    max-width: 3000px; /* Allows a wider text area */
     margin: 40px auto; /* Centers content */
     display: flex;
     flex-direction: row;
@@ -25,8 +25,8 @@ body {
 
 /* Left Section: Profile Image and Contact */
 .left {
-    flex: 0.3; /* Takes less space */
-    min-width: 200px; /* Prevents excessive shrinking */
+    flex: 0.2; /* Takes less space */
+    min-width: 160px; /* Prevents excessive shrinking */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -39,17 +39,17 @@ body {
     display: block;
     border-radius: 50%;
     margin-bottom: 20px;
-    width: 180px;
+    width: 160px;
     height: auto;
 }
 
 /* Right Section: Bio and Research */
 .right {
-    flex: 1.7; /* Takes more space */
+    flex: 2; /* Takes more space */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 1600px; /* Expands text area */
+    max-width: 2500px; /* Expands text area */
 }
 
 /* Name Styling */
@@ -76,7 +76,7 @@ body {
 
 /* Research Image */
 .picture {
-    max-width: 200%;
+    max-width: 120%;
     height: auto;
     display: block;
     margin-top: 20px;
