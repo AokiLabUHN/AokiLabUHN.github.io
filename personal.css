@@ -16,7 +16,7 @@ body {
 /* Main Wrapper: Holds Left (Image) and Right (Text) */
 .wrapper {
     width: 95%; /* Increased width for more space */
-    max-width: 1400px; /* Allows a wider text area */
+    max-width: 2000px; /* Allows a wider text area */
     margin: 40px auto; /* Centers content */
     display: flex;
     flex-direction: row;
@@ -49,7 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 10000px; /* Expands text area */
+    max-width: 1600px; /* Expands text area */
 }
 
 /* Name Styling */
@@ -76,7 +76,7 @@ body {
 
 /* Research Image */
 .picture {
-    max-width: 1000%;
+    max-width: 200%;
     height: auto;
     display: block;
     margin-top: 20px;
