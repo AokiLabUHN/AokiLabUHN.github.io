@@ -7,15 +7,15 @@
 
 /* General Body Styles */
 body {
-    font-family: Arial, sans-serif; /* Default system font */
+    font-family: Arial, sans-serif;
     color: black;
-    background: none; /* Removes background */
+    background: none;
 }
 
 /* Main Wrapper: Holds Left and Right Sections */
 .wrapper {
-    width: 80%;
-    max-width: 1000px;
+    width: 90%; /* Increased from 80% */
+    max-width: 1200px; /* Allows a wider text area */
     margin: 20px auto; /* Centers content */
     display: flex;
     flex-direction: row;
@@ -24,12 +24,12 @@ body {
 
 /* Left Section: Profile and Contact */
 .left {
-    flex: 1;
+    flex: 0.5; /* Takes less space */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-right: 20px;
+    padding-right: 30px; /* Increases spacing between image and text */
 }
 
 /* Profile Picture */
@@ -44,38 +44,7 @@ body {
 
 /* Right Section: Bio and Research */
 .right {
-    flex: 2;
+    flex: 1.5; /* Takes more space for text */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 20px;
-    max-width: 600px;
-}
-
-/* Name Styling */
-.name {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Subtitle Styling */
-.subtitle {
-    font-size: 16px;
-    font-weight: normal;
-    margin-bottom: 5px;
-}
-
-/* Bio Text */
-.bio {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-/* Research Image */
-.picture {
-    max-width: 100%;
-    height: auto;
-   
