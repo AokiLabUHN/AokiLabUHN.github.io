@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 /* General Body Styles */
@@ -15,8 +14,8 @@ body {
 
 /* Main Wrapper: Holds Left (Image) and Right (Text) */
 .wrapper {
-    width: 95%; /* Increased width for more space */
-    max-width: 3000px; /* Allows a wider text area */
+    width: 98%; /* Maximizes the width */
+    max-width: 1600px; /* Allows more room for text */
     margin: 40px auto; /* Centers content */
     display: flex;
     flex-direction: row;
@@ -25,13 +24,13 @@ body {
 
 /* Left Section: Profile Image and Contact */
 .left {
-    flex: 0.3; /* Takes less space */
-    min-width: 160px; /* Prevents excessive shrinking */
+    flex: 0.2; /* Further reduce image section size */
+    min-width: 180px; /* Prevents excessive shrinking */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-right: 40px; /* More spacing between image and text */
+    padding-right: 50px; /* Increase spacing between image and text */
 }
 
 /* Profile Picture */
@@ -39,17 +38,17 @@ body {
     display: block;
     border-radius: 50%;
     margin-bottom: 20px;
-    width: 160px;
+    width: 180px; /* Slightly reduced to allow more text space */
     height: auto;
 }
 
 /* Right Section: Bio and Research */
 .right {
-    flex: 1.7; /* Takes more space */
+    flex: 2; /* Expands text section */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 2200px; /* Expands text area */
+    max-width: 1200px; /* Allows more text width */
 }
 
 /* Name Styling */
@@ -76,7 +75,7 @@ body {
 
 /* Research Image */
 .picture {
-    max-width: 120%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-top: 20px;
