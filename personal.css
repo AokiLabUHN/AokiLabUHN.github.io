@@ -1,4 +1,4 @@
-/* Reset Styles */
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +6,17 @@
 }
 
 /* General Body Styles */
-html, body {
-    font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
-    display: block; /* Remove flex that centers everything */
-    width: 100%;
-    padding: 20px;
+body {
+    font-family: Arial, sans-serif; /* Default system font */
+    color: black;
+    background: none; /* Removes background */
 }
 
 /* Main Wrapper: Holds Left and Right Sections */
 .wrapper {
-    background-color: white;
     width: 80%;
     max-width: 1000px;
-    margin: auto;
+    margin: 20px auto; /* Centers content */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -57,7 +54,9 @@ html, body {
 
 /* Name Styling */
 .name {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -79,6 +78,4 @@ html, body {
 .picture {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-top: 20px;
-}
+   
