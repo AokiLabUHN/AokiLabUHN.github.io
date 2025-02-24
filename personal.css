@@ -48,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 1000px; /* Expands text area */
+    max-width: 10000px; /* Expands text area */
 }
 
 /* Name Styling */
