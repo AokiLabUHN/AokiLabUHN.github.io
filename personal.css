@@ -12,39 +12,71 @@ body {
     background: none;
 }
 
-/* Main Wrapper: Holds Left and Right Sections */
+/* Main Wrapper: Holds Left (Image) and Right (Text) */
 .wrapper {
-    width: 90%; /* Increased from 80% */
-    max-width: 1200px; /* Allows a wider text area */
-    margin: 20px auto; /* Centers content */
+    width: 95%; /* Increased width for more space */
+    max-width: 1400px; /* Allows a wider text area */
+    margin: 40px auto; /* Centers content */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-/* Left Section: Profile and Contact */
+/* Left Section: Profile Image and Contact */
 .left {
-    flex: 0.5; /* Takes less space */
+    flex: 0.3; /* Takes less space */
+    min-width: 200px; /* Prevents excessive shrinking */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-right: 30px; /* Increases spacing between image and text */
+    padding-right: 40px; /* More spacing between image and text */
 }
 
 /* Profile Picture */
 .profile-picture {
     display: block;
-    float: left;
     border-radius: 50%;
     margin-bottom: 20px;
-    width: 200px;
+    width: 180px;
     height: auto;
 }
 
 /* Right Section: Bio and Research */
 .right {
-    flex: 1.5; /* Takes more space for text */
+    flex: 1.7; /* Takes more space */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    max-width: 1000px; /* Expands text area */
+}
+
+/* Name Styling */
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+/* Bio Text */
+.bio {
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 100%; /* Allows full width */
+    margin-bottom: 20px;
+}
+
+/* Research Image */
+.picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
