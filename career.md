@@ -2,8 +2,9 @@
 layout: page
 title: Careers
 subtitle: Job opportunities in the Aoki Lab
+permalink: /career/
 ---
 
 # Current Openings:
 
-* There is no active recruitment now. Please reach out to tomohiro.aoki@uhn.ca for any possible future opportunities
+* For job opportunities, please contact tomohiro.aoki@uhn.ca for more information
